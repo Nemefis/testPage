@@ -1,6 +1,6 @@
 body {
     display: flex;
-    background-color: aqua;
+    background-image: url('bg.png');
     justify-content: center;
 }
 .wrapper {
@@ -53,4 +53,8 @@ button:hover {
     .btn {
         margin-top: 0;
     }
+}
+
+.btn-primary {
+    background-color: black;
 }
